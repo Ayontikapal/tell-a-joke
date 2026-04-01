@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #eda268;
+}
+
+
+.robot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+dotlottie-wc{
+    width: 300px;
+    height: 300px;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #F7730E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: #F7730E;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.6);
+}
+
+.btn:active{
+    background-color: #F7730E;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.show-joke{
+    width: fit-content;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top:40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #333;
+}
+
